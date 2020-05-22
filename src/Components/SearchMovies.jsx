@@ -33,6 +33,8 @@ function SearchMovies() {
           onChange={(e) => {
             setQuery(e.target.value);
           }}
+          autoComplete="off"
+          auto
         />
         <button type="submit" className="button">
           Search
